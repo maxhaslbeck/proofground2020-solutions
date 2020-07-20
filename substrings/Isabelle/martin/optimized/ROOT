@@ -1,0 +1,10 @@
+chapter Optimized
+
+session Optimized (HOL) = "HOL-Library" +
+  theories
+    Defs
+    Official
+    Optimized
+export_files (in ".") [2]
+    "Optimized.Official:code/**"
+    "Optimized.Optimized:code/**"
